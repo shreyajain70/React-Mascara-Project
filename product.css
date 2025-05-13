@@ -1,0 +1,495 @@
+.logo {
+    height: 105px;
+    width: 100px;
+    border-radius: 100px;
+    position: absolute;
+    top: -0.01rem;
+}
+
+.nav-container {
+
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #FFCDB2;
+    border-radius: 50px;
+}
+
+.nav-ul {
+    width: 600px;
+    display: flex;
+    list-style: none;
+    margin-top: auto;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+
+}
+
+.nav-li {
+    text-decoration: none;
+    color: #481E14;
+    outline: none;
+    text-shadow: none;
+
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #C9B194;
+    border-radius: 50px;
+    align-items: center;
+    color: #481E14;
+}
+
+.body-main-div {
+    margin-top: 10px;
+}
+
+.front-div {
+    background-color: #eee8d8;
+    border-radius: 20px;
+
+}
+
+.body-img {
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+
+}
+
+.quote {
+    color: #7d4f50;
+    font-size: 50px;
+}
+
+.first-heading {
+    position: absolute;
+    top: 9rem;
+    right: 30rem;
+}
+
+.second-heading {
+    position: absolute;
+    top: 12rem;
+    right: 5rem;
+}
+
+.products-image {
+    height: 200px;
+    width: 200px;
+}
+
+.main-products-div {
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.products-div {
+    padding: 20px;
+    border: 4px solid #c9b194;
+    height: 500px;
+    width: 350px;
+    text-align: center;
+    transition: all 0.5s;
+
+}
+
+.products-div:hover {
+    text-shadow: 2px 5px 2px 5px rgba(201, 177, 148, 1);
+    border-radius: 20px;
+    transform: scale(1.04);
+}
+
+.rating {
+    text-align: right;
+    font-size: 15px;
+}
+
+.cart-btn {
+    height: 50px;
+    width: 180px;
+    background-color: #e29578;
+    border-radius: 10px;
+}
+
+.front-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-div {
+    position: absolute;
+    top: 20rem;
+    right: 25rem;
+
+}
+
+.main-btn {
+    height: 80px;
+    width: 150px;
+    background-color: #C9B194;
+    border-radius: 40px;
+    border: 4px solid #bc8a5f;
+    transition: all 1s;
+    color: #582f0e;
+
+    &:hover {
+        text-shadow: 2px 5px 2px 5px rgba(201, 177, 148, 1);
+        transform: scale(1.04);
+    }
+}
+
+.btn1 {
+    position: relative;
+    top: -1rem;
+    left: 3rem;
+
+}
+
+.btn2 {
+    position: relative;
+    top: -1rem;
+    right: -10rem;
+}
+
+.btn3 {
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+}
+
+.btn4 {
+    position: relative;
+    top: 2rem;
+    right: -10rem;
+}
+
+.Beauty-img {
+    height: 20px;
+    width: 20px;
+
+}
+
+footer {
+    background-color: #c9b194;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    width: 94rem;
+    border-radius: 10px;
+}
+
+.footer .social-links a {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+
+}
+
+.footer-btn {
+    background-color: #7d4f50;
+    height: 30px;
+}
+
+.footer .social-links a:hover {
+    text-decoration: underline;
+}
+
+.AboutUs-div {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 800px;
+    width: 800px;
+    background-color: #D5C7A3;
+    color: #0d1b2a;
+    padding: 20px;
+}
+
+.AboutUs-h2 {
+    color: #0d1b2a;
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.AboutUs-p {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+}
+
+.Contact-main-div {
+
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.letter-contact-div {
+    border: 5px solid #c9b194;
+    border-radius: 20px;
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+}
+
+.details-contact-div {
+    border: 5px solid #c9b194;
+    border-radius: 20px;
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+}
+
+.contact-icons {
+    height: 40px;
+    width: 50px;
+}
+
+.email-div,
+.phone-div,
+.address-div,
+.hours-div {
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.contact-p {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.contact-h3 {
+    font-family: "Playwrite AU SA Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.search-div {
+
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    top: 16rem;
+    display: flex;
+}
+
+.search-inpt {
+    height: 50px;
+    width: 400px;
+    border: 0px solid #FFCDB2;
+    border-radius: 10px;
+    position: relative;
+    right: -4rem;
+    transition: all 1s;
+
+    &:hover {
+        border: 3px solid #7d4f50;
+    }
+
+}
+
+.search-btn {
+    height: 40px;
+    width: 50px;
+    position: relative;
+    right: 0.13rem;
+    top: 0.4rem;
+    border-radius: 15px;
+    background-color: #c9b194;
+    border: 3px solid #582f0e;
+}
+
+.search-icon {
+    padding: 10px;
+    
+}
+
+.mainClick-div {
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px solid #c9b194;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.clickImage-div {
+
+    height: 500px;
+    width: 500px;
+}
+
+.clickImage {
+    height: 400px;
+    width: 500px;
+
+    &:hover {
+        transform: scale(1.04);
+    }
+}
+
+.clickDescription {
+
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+    text-align: left;
+}
+
+.main-products-div a {
+    color: #7d4f50;
+    text-decoration: none;
+}
+
+@keyframes fadeInPage {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    animation: fadeInPage 1.2s ease forwards;
+}
+
+.logo:hover {
+    cursor: pointer;
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+    transform: scale(1.1) rotate(10deg);
+    box-shadow: 0 0 15px rgba(255, 205, 178, 0.7);
+}
+
+.nav-li {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-li::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #7d4f50;
+    transition: width 0.3s ease;
+}
+
+.nav-li:hover::after {
+    width: 100%;
+}
+
+.nav-li:hover {
+    color: #7d4f50;
+}
+
+.cart-btn:hover,
+.main-btn:hover,
+.footer-btn:hover {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1.08);
+    box-shadow: 0 6px 15px rgba(226, 149, 120, 0.7);
+}
+
+.products-div:hover {
+    cursor: pointer;
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0 15px 25px rgba(201, 177, 148, 0.5);
+    transform: translateY(-10px) scale(1.05);
+}
+
+.search-inpt:focus {
+    outline: none;
+    border: 3px solid #7d4f50;
+    box-shadow: 0 0 10px #7d4f50;
+}
+
+.clickImage:hover {
+    cursor: pointer;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    transform: scale(1.06);
+    box-shadow: 0 10px 20px rgba(125, 79, 80, 0.3);
+}
+
+@keyframes floatUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+.button-div {
+    animation: floatUpDown 3.5s ease-in-out infinite;
+}
+
+.footer .social-links a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.footer .social-links a:hover {
+    cursor: pointer;
+    transform: translateY(-6px);
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-15px);
+    }
+
+    60% {
+        transform: translateY(-7px);
+    }
+}
+
+.Beauty-img:hover {
+    cursor: pointer;
+    animation: bounce 1s;
+}
+
+.products-div:hover {
+    text-shadow: 2px 5px 8px #f1bf82cc;
+    box-shadow: 0 15px 25px rgba(232, 99, 27, 0.5);
+}
+
+a {
+    text-decoration: none;
+}
