@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "test": "jest",
-    "start":"npx parcel product.html",
-    "build":"npx parcel build product.html"
+    "start":" parcel product.html",
+    "build":" parcel build product.html"
   },
   "author": "shreya",
   "license": "ISC",
