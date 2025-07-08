@@ -449,4 +449,167 @@ body {
 a {
   text-decoration: none;
 }
+
+@media (width <= 1024px) {
+  .nav-container, .main-container {
+    border-radius: 30px;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .nav-li {
+    padding: 10px 0;
+    font-size: 1.1rem;
+  }
+
+  .main-products-div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .products-div {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .body-img, .clickImage-div, .clickImage {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .AboutUs-div, .letter-contact-div, .details-contact-div, .clickDescription {
+    width: 90%;
+    height: auto;
+  }
+
+  .search-div {
+    justify-content: center;
+    width: 100%;
+    margin: 30px 0;
+    position: static;
+  }
+}
+
+@media (width <= 768px) {
+  .nav-container {
+    border-radius: 20px;
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .logo {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 10px;
+    display: block;
+    position: static;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+  }
+
+  .main-container, .front-div {
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .body-img, .products-image, .clickImage {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+
+  .products-div {
+    width: 98%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .main-products-div {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .button-div, .first-heading, .second-heading, .search-div {
+    text-align: center;
+    margin: 10px 0;
+    position: static;
+    top: auto;
+    left: auto;
+    right: auto;
+  }
+
+  .main-btn, .cart-btn {
+    width: 100%;
+    min-width: 120px;
+    max-width: 220px;
+    height: 50px;
+    font-size: 1rem;
+  }
+
+  .AboutUs-div, .letter-contact-div, .details-contact-div, .clickDescription {
+    width: 98%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .Contact-main-div, .mainClick-div {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer {
+    border-radius: 0;
+    width: 100%;
+    padding: 10px;
+    font-size: .95rem;
+  }
+}
+
+@media (width <= 480px) {
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .nav-ul {
+    font-size: .9rem;
+  }
+
+  .products-div, .AboutUs-div, .letter-contact-div, .details-contact-div, .clickDescription {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .body-img, .products-image, .clickImage {
+    max-width: 150px;
+  }
+
+  .quote {
+    padding: 5px;
+    font-size: 1.3rem;
+  }
+
+  .main-btn, .cart-btn {
+    height: 40px;
+    font-size: .9rem;
+  }
+}
 /*# sourceMappingURL=product.a6594be7.css.map */

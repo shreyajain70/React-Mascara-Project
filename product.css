@@ -323,6 +323,7 @@ footer {
     
 }
 
+
 .mainClick-div {
     display: flex;
     justify-content: space-evenly;
@@ -492,4 +493,199 @@ body {
 
 a {
     text-decoration: none;
+}
+
+
+
+
+/* Responsive Styles */
+
+/* For tablets and below */
+@media (max-width: 1024px) {
+    .nav-container,
+    .main-container {
+        flex-direction: column;
+        height: auto;
+        border-radius: 30px;
+    }
+
+    .nav-ul {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+    }
+
+    .nav-li {
+        padding: 10px 0;
+        font-size: 1.1rem;
+    }
+
+    .main-products-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products-div {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .body-img,
+    .clickImage-div,
+    .clickImage {
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+    }
+
+    .AboutUs-div,
+    .letter-contact-div,
+    .details-contact-div,
+    .clickDescription {
+        width: 90%;
+        height: auto;
+    }
+
+    .search-div {
+        position: static;
+        width: 100%;
+        margin: 30px 0;
+        justify-content: center;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+        border-radius: 20px;
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+        position: static;
+        margin: 0 auto 10px auto;
+        display: block;
+    }
+
+    .nav-ul {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        font-size: 1rem;
+        height: auto;
+    }
+
+    .main-container,
+    .front-div {
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+    .body-img,
+    .products-image,
+    .clickImage {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+    }
+
+    .products-div {
+        width: 98%;
+        padding: 10px;
+        height: auto;
+    }
+
+    .main-products-div {
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .button-div,
+    .first-heading,
+    .second-heading,
+    .search-div {
+        position: static;
+        top: auto;
+        right: auto;
+        left: auto;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .main-btn,
+    .cart-btn {
+        width: 100%;
+        min-width: 120px;
+        max-width: 220px;
+        height: 50px;
+        font-size: 1rem;
+    }
+
+    .AboutUs-div,
+    .letter-contact-div,
+    .details-contact-div,
+    .clickDescription {
+        width: 98%;
+        padding: 10px;
+        height: auto;
+    }
+
+    .Contact-main-div,
+    .mainClick-div {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer {
+        width: 100%;
+        border-radius: 0;
+        font-size: 0.95rem;
+        padding: 10px;
+    }
+}
+
+/* For very small devices */
+@media (max-width: 480px) {
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .nav-ul {
+        font-size: 0.9rem;
+    }
+
+    .products-div,
+    .AboutUs-div,
+    .letter-contact-div,
+    .details-contact-div,
+    .clickDescription {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .body-img,
+    .products-image,
+    .clickImage {
+        max-width: 150px;
+    }
+
+    .quote {
+        font-size: 1.3rem;
+        padding: 5px;
+    }
+
+    .main-btn,
+    .cart-btn {
+        font-size: 0.9rem;
+        height: 40px;
+    }
 }
